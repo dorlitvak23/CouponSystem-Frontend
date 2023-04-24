@@ -1,0 +1,76 @@
+/* .Layout {
+  height: 100%;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-rows: 15% 80% 5%;
+  grid-template-columns: repeat(6, 1fr); /*6 equal columns*/
+
+.Layout {
+  /* margin-top: -10px; 
+    height: 100%;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-rows: 27% 0% 68% 5%;
+    /* grid-template-columns: repeat(6, 1fr); */
+  /* overflow: auto;
+     align-items: stretch;
+     justify-items: stretch;  */
+}
+
+.Layout header {
+  /* grid-column: span 6; */
+}
+
+.Layout main {
+  /* grid-column: span 5; */
+}
+
+.Layout footer {
+  /* grid-column: span 6; */
+
+}
+
+.Layout,
+.Layout>* {
+  /* border: 1px solid black;
+  overflow: auto; */
+}
+
+.Layout {
+  margin-top: -10px;
+  height: 95%;
+  /* box-sizing: border-box; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* grid-template-rows: 27% 0% 68% 5%;
+  grid-template-columns: repeat(6, 1fr);
+  overflow: auto;
+   align-items: stretch;
+   justify-items: stretch; */
+}
+
+header {
+  color: aliceblue;
+  overflow: auto;
+  background-color: black;
+  grid-column: span 5;
+  margin-top: 10px;
+}
+
+main {
+  overflow: auto;
+
+}
+
+.HeaderContainer {
+  display: flex;
+  /* justify-content: space-evenly; */
+  align-items: stretch;
+  height: 10%;
+  flex-direction: column;
+  margin-top: 30px;
+  justify-content: flex-start;
+
+
+}

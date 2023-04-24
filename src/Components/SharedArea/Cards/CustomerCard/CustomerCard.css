@@ -1,0 +1,12 @@
+.coupon-card, 
+.customer-info-card,
+.customer-card 
+{
+    color:black;
+}
+
+.card-image {
+    max-width: 100%;
+    
+    max-height: 300px;
+}

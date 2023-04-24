@@ -1,0 +1,17 @@
+.CustomLink {
+    color: white;
+    margin-bottom: 15px;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+
+.CustomLink:hover{
+    color: #6db33f;
+    /* border-bottom: 3px solid pink; */
+    font-weight: 700;
+    font-size: 30px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.1s;
+}

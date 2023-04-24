@@ -1,0 +1,23 @@
+/* .Header {
+	height: 100%;
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+justify-content: space-around;
+align-items: baseline;
+
+align-content: space-around;
+
+}
+ */
+ .Header {
+	height: 10%;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+}
+
+.headerH1{
+ margin-right:60%; 
+ margin-top: -15px;
+}

@@ -1,0 +1,23 @@
+
+
+.companies_view_container {
+    display: flex;
+    /* margin-top: 100px; */
+}
+
+.companies_view_container {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 50px;
+    align-items: flex-start;
+}
+.company_list_container{
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}

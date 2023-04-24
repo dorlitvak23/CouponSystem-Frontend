@@ -1,0 +1,28 @@
+/* .Footer {}
+
+.Footer p {
+    font-weight: 900;
+} */
+
+/* .Footer {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  } */
+  .Footer {
+    position: fixed;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 6%;
+    background-color: rgb(2, 2, 2);
+    color: rgb(184, 150, 63);
+    text-align: left;
+   flex-wrap: wrap;
+justify-content: center; 
+
+  }
+  
